@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json()); //Para tratar o json
 
 app.listen(3000, () =>{
-    console.log('Rodando em http://localhosta.3000')   
+    console.log('Rodando em http://localhost.3000')   
 })
 
 // prerarar para responder ao GET
