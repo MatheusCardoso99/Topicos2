@@ -13,3 +13,7 @@ app.listen(3000, () =>{
 app.get('/', (req, res) => {
     res.send('Atendida a requisição GET!!');
    }); 
+
+// rotas para animais
+const animais = require('./animais');
+animais(app); 
