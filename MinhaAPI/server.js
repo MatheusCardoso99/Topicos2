@@ -11,7 +11,6 @@ app.listen(3000, () =>{
 
 // conexão com mongoBD
 const MongoClient = require('mongodb').MongoClient;
-const ObjectId = require('mongodb').ObjectId;
 //const uri = "mongodb://admin:admin@localhost:27018/base01?authSource=meuteste ";
 const uri = "mongodb://localhost:27018/base01 ";
 MongoClient.connect(uri, (err, client) => {

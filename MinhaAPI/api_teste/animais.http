@@ -10,7 +10,7 @@ Content-Type: application/json
 //Deixar espaço acima para funcionar
 {
  "tipo": "cachorro",
- "nome": "Langranha",
+ "nome": "Lang",
  "idade": 4
 }
 ###
@@ -20,15 +20,15 @@ PUT http://localhost:3000/animais
 Content-Type: application/json
 
 {
- "_id": "61155f6d8709e63275d0e71a",
+ "_id": "630428130d95b67b22b853be",
  "tipo": "gato",
- "nome": "xuxuzinho",
+ "nome": "xxx",
  "idade": 5
 }
 ###
 
 # Excluir um animal pelo id
-DELETE http://localhost:3000/animais/61155f6d8709e63275d0e71a
+DELETE http://localhost:3000/animais/630428130d95b67b22b853be
 Content-Type: application/json
 ###
 
