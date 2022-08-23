@@ -9,6 +9,21 @@ app.listen(3000, () =>{
     console.log('Rodando em http://localhost.3000')   
 })
 
+// conexão com mongoBD
+const MongoClient = require('mongodb').MongoClient;
+const ObjectId = require('mongodb').ObjectId;
+//const uri = "mongodb://admin:admin@localhost:27018/base01?authSource=meuteste ";
+const uri = "mongodb://localhost:27018/base01 ";
+MongoClient.connect(uri, (err, client) => {
+ if (err)
+ return console.log(err);
+ db = client.db('aula01');
+ app.listen(3001, function() { // subir serviço da api na porta 3000
+ console.log('API rodando na porta 3001');
+ console.log('Testar por http://localhost:3001');
+ });
+ });
+
 // prerarar para responder ao GET
 app.get('/', (req, res) => {
     res.send('Atendida a requisição GET!!');
