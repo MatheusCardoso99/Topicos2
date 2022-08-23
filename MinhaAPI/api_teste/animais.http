@@ -1,0 +1,4 @@
+# Obter a lista de animais
+GET http://localhost:3000/animais
+Content-Type: application/json
+###
