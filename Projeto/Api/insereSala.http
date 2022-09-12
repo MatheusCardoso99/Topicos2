@@ -1,0 +1,11 @@
+# Inserir nova rua
+POST http://localhost:3000/sala
+Content-Type: application/json
+
+{
+    "descricao": "Dallas",
+    "capacidade": 200,
+    "andar": 10,
+    "localizacao": "Rua Setembro"
+}
+###

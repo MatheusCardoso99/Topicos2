@@ -1,0 +1,10 @@
+# Inserir nova rua
+POST http://localhost:3000/predio
+Content-Type: application/json
+
+{
+    "nome": "Dallas",
+    "sigla": "D6",
+    "andares": 10
+}
+###

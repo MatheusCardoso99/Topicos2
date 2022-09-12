@@ -1,0 +1,8 @@
+# Inserir nova rua
+POST http://localhost:3000/tipo
+Content-Type: application/json
+
+{
+    "nome": "Hotel"
+}
+###

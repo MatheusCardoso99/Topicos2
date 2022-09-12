@@ -1,0 +1,9 @@
+# Alterar uma rua
+PUT http://localhost:3000/rua/6316951e39b7766dcca5e8be
+Content-Type: application/json
+
+{
+ "_id": "6316951e39b7766dcca5e8be",
+ "nome": "Rua brasil"
+}
+###

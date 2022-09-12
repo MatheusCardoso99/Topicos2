@@ -1,0 +1,4 @@
+# Excluir um animal pelo id
+DELETE http://localhost:3000/rua/6316946c39b7766dcca5e8bd
+Content-Type: application/json
+###

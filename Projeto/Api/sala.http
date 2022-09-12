@@ -1,0 +1,5 @@
+# Obter a lista de predios
+GET http://localhost:3000/sala/6316895285375d8093f23441
+
+Content-Type: application/json
+###

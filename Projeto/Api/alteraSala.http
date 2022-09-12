@@ -1,0 +1,12 @@
+# Alterar uma rua
+PUT http://localhost:3000/sala/6316951e39b7766dcca5e8be
+Content-Type: application/json
+
+{
+ "_id": "6316951e39b7766dcca5e8be",
+ "descricao": "Dallas",
+ "capacidade": 100,
+ "andar": 10,
+ "localizacao": "Rua Outubro"
+}
+###
