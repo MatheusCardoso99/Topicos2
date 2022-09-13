@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Example from './Example';
+import Usuario from './Usuario';
+import Menu from './Menu';
+import { useState } from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [opcao, setOpcao] = useState('Example');
+  if (opcao === 'Example') {
+    return (
+      <div className="App">
+        <Menu setOpcao={setOpcao} />
+        <Example />
+      </div>
+    );
+  } else if (opcao === 'Usuario') {
+    return (
+      <div className="App">
+        <Menu setOpcao={setOpcao} />
+        <Usuario />
+      </div>
+    );
+  }
 }
 
 export default App;
