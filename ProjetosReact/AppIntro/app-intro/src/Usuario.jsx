@@ -6,10 +6,22 @@ export default function Usuario() {
         { id: 2, nome: 'Beltrano', email: 'email2@teste', celular: '54 6565 5454' },
         { id: 3, nome: 'ciclano', email: 'ciclano@teste', celular: '54 6565 5454' }
     ]
+
     const [usuarios, setUsuarios] = useState(usuariosList)
+    const onClickAtualizar = () => {
+        usuariosList = [
+            { id: 1, nome: 'fulano alterado', email: 'fulano@teste', idade: 30 },
+            { id: 2, nome: 'beltrano', email: 'beltrano@teste', idade: 20 },
+            { id: 3, nome: 'ciclano', email: 'ciclano@teste', idade: 20 }
+        ];
+        setUsuarios(usuariosList);
+    }
+
     return (
         <div>
             <h4>Listagem de usuários</h4>
+            <button onClick={onClickAtualizar} type="button"
+                class="btn btn-primary btn-sm">Atualizar Lista</button>
             <table className='table'>
                 <thead>
                     <tr>
