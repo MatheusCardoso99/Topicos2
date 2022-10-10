@@ -1,0 +1,47 @@
+# Obter a lista de usuarios
+GET http://localhost:3000/usuarios
+Content-Type: application/json
+###
+
+# Inserir novo usuarios
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+ "email": "userdois@teste",
+ "nome": "user dois",
+ "celular": "54 3453 34534"
+}
+###
+
+# Alterar um usuarios
+PUT http://localhost:3000/usuarios
+Content-Type: application/json
+ 
+{
+    "_id": "62f1b21aa051c98b0aaf82bf",
+    "email": "userum@teste",
+    "nome": "user um alterado",
+    "celular": "54 3453 34534"
+}
+###
+
+# Excluir um usuarios pelo id
+DELETE  http://localhost:3000/usuarios/62f1b218a051c98b0aaf82be
+Content-Type: application/json
+###
+
+
+# Obter usuarios pelo id 
+GET http://localhost:3000/usuarios/61155fb98709e63275d0e71b
+Content-Type: application/json
+###
+
+# Obter usuarios filtrando 
+GET http://localhost:3000/usuarios/filtro/um
+Content-Type: application/json
+###
+
+
+
+

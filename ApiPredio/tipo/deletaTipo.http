@@ -1,0 +1,4 @@
+# Excluir um tipo pelo id
+DELETE http://localhost:3000/tipo/deleta/631fb0c5e15d4397ac0c79cf
+Content-Type: application/json
+###

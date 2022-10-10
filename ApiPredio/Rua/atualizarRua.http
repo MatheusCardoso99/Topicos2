@@ -1,0 +1,8 @@
+# Alterar uma rua
+PUT http://localhost:3000/atualizar
+content-type: application/json
+
+{
+ "_id": "6316901756c607821bb31688",
+ "nome": "Rua sem botas"
+}

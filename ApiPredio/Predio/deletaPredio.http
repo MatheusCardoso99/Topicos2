@@ -1,0 +1,4 @@
+# Excluir um predio pelo id
+DELETE http://localhost:3000/predio/deleta/631694336ea9f528511ec228
+Content-Type: application/json
+###

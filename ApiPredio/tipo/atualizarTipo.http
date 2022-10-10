@@ -1,0 +1,8 @@
+# Alterar um tipo
+PUT http://localhost:3000/atualizar/tipo
+content-type: application/json
+
+{
+ "_id": "631fb401d5ad96958f0bb8a2",
+ "descricao": "Predio dos Guris"
+}

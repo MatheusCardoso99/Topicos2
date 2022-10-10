@@ -1,0 +1,11 @@
+# Alterar uma sala
+PUT http://localhost:3000/sala/atualizar
+content-type: application/json
+
+{
+ "_id": "63169b084f318019ae101a56",   
+ "nome": "Algo aqui",
+ "capacidade": 20,
+ "andar": 10,
+ "localizacao": "Camaqua"
+}

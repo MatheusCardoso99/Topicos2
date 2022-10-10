@@ -1,0 +1,10 @@
+# Alterar um predio
+PUT http://localhost:3000/atualizar/predio
+content-type: application/json
+
+{
+ "_id": "631694a66ea9f528511ec22b",
+ "nome": "Predio dos Vingadores",
+ "sigla": "B2",
+ "andares": 4
+}

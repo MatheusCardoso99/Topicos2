@@ -1,0 +1,9 @@
+POST http://localhost:3000/sala
+Content-Type: application/json
+
+{
+ "nome": "sala dos desejos",
+ "capacidade": 30,
+ "andar": 4,
+ "localizacao": "Logo ali"
+}

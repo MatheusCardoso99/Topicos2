@@ -1,0 +1,4 @@
+# Excluir uma rua pelo id
+DELETE http://localhost:3000/deleta/6344a30726c67b37dfd99ce9
+Content-Type: application/json
+###

@@ -1,0 +1,8 @@
+POST http://localhost:3000/predio
+Content-Type: application/json
+
+{
+ "nome": "Prédio dos lacraio",
+ "sigla": "B5",
+ "andares": 2
+}
