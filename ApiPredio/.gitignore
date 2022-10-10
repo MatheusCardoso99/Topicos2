@@ -1,0 +1,74 @@
+
+# Output of 'npm pack'
+*.tgz
+
+#Python
+venv
+
+# build / generate output
+dist
+
+
+# Android / java Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+.gradle/
+build/
+bin/
+gen/
+out/
+
+# Package Files #
+*.war
+*.ear
+#*.zip
+*.tar.gz
+*.rar
+
+
+# Node ignore
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+.grunt
+build/Release
+node_modules/
+jspm_packages/
+.npm
+#.env
+#.env.test
+#.env.production
+
+.cache/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
